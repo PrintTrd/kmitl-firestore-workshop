@@ -156,3 +156,18 @@ body {
 .list > .remove-todo:focus {
     background-color: rgba(0,0,0,.1);
 }
+
+@media screen and (max-width: 568px){
+    body {
+        padding: 0 10px;
+    }
+
+    #todo-form, #todo-list {
+        width: 100%;
+    }
+
+    #create-todo {
+        padding: 10px;
+        background-color: rgba(0,0,0,.2);
+    }
+}
